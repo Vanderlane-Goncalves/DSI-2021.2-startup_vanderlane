@@ -62,10 +62,9 @@ class _RandomWordsState extends State<RandomWords> {
     } else {
       return GridView.builder(
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          childAspectRatio: 4,
+          childAspectRatio: 3,
           crossAxisCount: 2,
-          crossAxisSpacing: 6.0,
-          mainAxisSpacing: 6.0,
+          crossAxisSpacing: 6,
         ),
         itemBuilder: (context, i) {
           if (i >= _suggestions.length) {
